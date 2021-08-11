@@ -3,7 +3,7 @@ node_js:
   - 14.3.0
 branchs:
   only:
-    - master
+    - qunar_yuzhan_star
 cache:
   directories:
     - node_modules
