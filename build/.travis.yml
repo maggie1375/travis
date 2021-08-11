@@ -1,0 +1,15 @@
+branches:
+  only:
+    - master
+language: node_js
+node_js:
+  - 'v14.3.0'
+cache: npm
+before_install:
+  - git config --global user.name "maggie_707@126.com"
+  - git config --global user.email m88711375
+install:
+  - npm install
+  - npm run build
+script:
+  - git log
