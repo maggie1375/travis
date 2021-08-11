@@ -7,6 +7,10 @@ branchs:
 cache:
   directories:
     - node_modules
+before_install:
+  - git config --global user.name "maggie1375"
+  - git config --global user.email "maggie_707@126.com" 
+  - git config --global user.password "m88711375"
 install:
   - yarn install
 scripts:
