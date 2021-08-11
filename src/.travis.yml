@@ -10,6 +10,5 @@ cache:
 install:
   - yarn install
 scripts:
-  - yarn test
   - yarn build
 
